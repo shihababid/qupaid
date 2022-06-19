@@ -1,0 +1,324 @@
+@media (min-width: 1400px) {
+	/*For All Page*/
+	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+		max-width: 1150px !important;
+	}
+	/*For All Page*/
+
+	/*Home Page Start*/
+	.home-top-banner{
+	    background-position: center;
+	    background-size: cover;
+	    height: 70vh;
+  	}
+	.home-top-banner .container .row{
+	    height: 70vh;
+	}
+	.partner {
+	    background-size: contain;
+	}
+	.partner .container .row{
+	    height: 450px;
+	}
+	/*Home Page End*/
+	/*Contact Us Page Start*/
+	.contact-us {
+	    height: 100vh;
+	    display: flex;
+	    align-items: center;
+	}
+	.contact-us .container{
+    	width: 60%;
+  	}
+	/*Contact Us Page End*/
+	/*Footer Start*/
+	.footer-first {
+		text-align: left;
+	}
+	.footer-second {
+		text-align: center;
+	}
+	.footer-third {
+		text-align: right;
+	}
+	.footer-icon {
+		padding-left: 20px;
+	}
+	.footer-links {
+		text-align: right;
+	}
+	/*Footer End*/
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+	/*For All Page*/
+	.container, .container-lg, .container-md, .container-sm, .container-xl {
+		max-width: 1000px !important;
+	}
+	/*For All Page*/
+
+	/*Home Page Start*/
+	.home-top-banner{
+	    background-position: center;
+	    background-size: cover;
+	    height: 80vh;
+  	}
+	.home-top-banner .container .row{
+	    height: 80vh;
+	}
+	.partner {
+	    background-size: contain;
+	}
+	.partner .container .row{
+	    height: 450px;
+	}
+	/*Home Page End*/
+	/*Contact Us Page Start*/
+	.contact-us {
+	    height: 100vh;
+	    display: flex;
+	    align-items: center;
+	}
+	.contact-us .container{
+    	width: 60%;
+  	}
+	/*Contact Us Page End*/
+
+	/*Footer Start*/
+	.footer-first {
+		text-align: left;
+	}
+	.footer-second {
+		text-align: center;
+	}
+	.footer-third {
+		text-align: right;
+	}
+	.footer-icon {
+		padding-left: 20px;
+	}
+	.footer-links {
+		text-align: right;
+	}
+	/*Footer End*/
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	/*For All Page*/
+	.container, .container-lg, .container-md, .container-sm {
+		max-width: 800px !important;
+	}
+	/*For All Page*/
+
+	/*Home Page Start*/
+	.home-top-banner{
+	    background-position: center;
+	    background-size: cover;
+	    height: 80vh;
+  	}
+	.home-top-banner .container .row{
+	    height: 80vh;
+	}
+	.partner {
+	    background-size: contain;
+	}
+	.partner .container .row{
+	    height: 450px;
+	}
+	/*Home Page End*/
+	/*Contact Us Page Start*/
+	.contact-us {
+	    height: 100vh;
+	    display: flex;
+	    align-items: center;
+	}
+	.contact-us .container{
+    	width: 60%;
+  	}
+	/*Contact Us Page End*/
+
+	/*Footer Start*/
+	.footer-first {
+		text-align: left;
+	}
+	.footer-second {
+		text-align: center;
+	}
+	.footer-third {
+		text-align: right;
+	}
+	.footer-icon {
+		padding-left: 20px;
+	}
+	.footer-links {
+		text-align: right;
+	}
+	/*Footer End*/
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	/*For All Page*/
+	.container, .container-md, .container-sm {
+		max-width: 650px !important;
+	}
+	/*For All Page*/
+
+	/*Home Page Start*/
+	.home-top-banner{
+	    background-position: center;
+	    background-size: cover;
+	    height: 60vh;
+  	}
+	.home-top-banner .container .row{
+	    height: 60vh;
+	}
+	.partner {
+	    background-size: contain;
+	}
+	.partner .container .row{
+	    height: 300px;
+	}
+	/*Home Page End*/
+	/*Contact Us Page Start*/
+	.contact-us {
+	    height: 100vh;
+	    display: flex;
+	    align-items: center;
+	}
+	.contact-us .container{
+    	width: 70%;
+  	}
+	/*Contact Us Page End*/
+
+	/*Footer Start*/
+	.footer-first {
+		text-align: left;
+	}
+	.footer-second {
+		text-align: center;
+	}
+	.footer-third {
+		text-align: right;
+	}
+	.footer-icon {
+		padding-left: 20px;
+	}
+	.footer-links {
+		text-align: right;
+	}
+	/*Footer End*/
+}
+
+@media (min-width: 576px) and (max-width: 765px) {
+	/*For All Page*/
+	.container, .container-sm {
+		max-width: ;
+	}
+	/*For All Page*/
+
+	/*Home Page Start*/
+	.home-top-banner{
+	    background-position: center;
+	    background-size: cover;
+	    height: 50vh;
+  	}
+	.home-top-banner .container .row{
+	    height: 50vh;
+	}
+	.partner {
+	    background-size: contain;
+	}
+	.partner .container .row{
+	    height: 200px;
+	}
+	.app-content {
+	  flex-direction: column-reverse;
+  	}
+  	.app-text{
+  		padding-top: 0px !important;
+  	}
+	/*Home Page End*/
+	/*services Us Page Start*/
+	.services-features .container .row {
+    	flex-direction: column-reverse;
+  	}
+	/*services Us Page Start*/
+	/*Contact Us Page Start*/
+	.contact-us .container{
+		margin-top: 20px;
+		margin-bottom: 20px;
+    	width: 100%;
+  	}
+  	.form-column {
+  		order: 1;
+  	}
+  	.map-column {
+  		order: 2;
+  	}
+	/*Contact Us Page End*/
+
+	/*Footer Start*/
+	.footer-icon {
+		padding-right: 20px;
+	}
+	/*Footer End*/
+}
+
+@media (max-width: 575px) {
+	/*For All Page*/
+	.container, .container-sm {
+		max-width: 95%;
+	}
+	/*For All Page*/
+
+	/*Home Page Start*/
+	.home-top-banner{
+	    background-position: center;
+	    background-size: cover;
+	    height: 50vh;
+  	}
+	.home-top-banner .container .row{
+	    height: 50vh;
+	}
+	.partner {
+	    background-size: cover;
+	}
+	.partner .container .row{
+	    height: 200px;
+	}
+	.app-content {
+	  flex-direction: column-reverse;
+  	}
+  	.app-text{
+  		padding-top: 0px !important;
+  	}
+	/*Home Page End*/
+	/*services Us Page Start*/
+	.services-features .container .row {
+    	flex-direction: column-reverse;
+  	}
+	/*services Us Page Start*/
+	/*Contact Us Page Start*/
+	.contact-us .container{
+		margin-top: 20px;
+		margin-bottom: 20px;
+    	width: 100%;
+  	}
+  	.form-column {
+  		order: 1;
+  	}
+  	.map-column {
+  		order: 2;
+  	}
+	/*Contact Us Page End*/
+
+	/*Footer Start*/
+	.footer-icon {
+		padding-right: 20px;
+	}
+	/*Footer End*/
+}
+
+
+
+

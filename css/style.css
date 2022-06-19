@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+  /*html{
+    height: 100%;
+  }*/
+  body {
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+  }
+  html {
+    height: 100%;
+  }
+  h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900 !important;
+  }
+  p{
+    font-weight: 400 !important;
+  }
+  .bg-white {
+    border-bottom: 1px solid #bf1e2d80;
+  }
+
+/*Home Page Css Start*/
+  .action-btn-small{
+    font-size: 13px;
+    text-decoration: none;
+    background: #BF1E2D;
+    color: #ffffff;
+    padding: 8px 20px;
+    border-radius: 50px;
+  }
+  .action-btn-small:hover{
+    transition: linear 0.2s;
+    color: #ffffff;
+  }
+  .action-btn-small span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .action-btn-small span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .action-btn-small:hover span {
+    padding-right: 25px;
+  }
+
+  .action-btn-small:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .action-btn-big{
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-decoration: none;
+    background: #BF1E2D;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+  }
+  .action-btn-big:hover{
+    transition: linear 0.2s;
+    color: #ffffff;
+  }
+  .action-btn-big span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+  .action-btn-big span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+
+  .action-btn-big:hover span {
+    padding-right: 25px;
+  }
+
+  .action-btn-big:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .home-top-banner{
+    background-image: url("../images/top-banner.jpg");
+  }
+  .home-top-banner .container .row{
+  }
+  .partner {
+    background-image: url(../images/partner.svg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .how-it-work {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .app-section {
+    margin-top: 130px;
+    margin-bottom: 40px;
+  }
+  .app-section .container .row{
+    background: #0F75BC !important;
+    border-radius: 20px;
+  }
+  .app-section .container .row .app-text{
+    padding: 60px;
+  }
+  .app-section .container .row h1{
+    color: #ffffff;
+  }
+  .app-section .container .row p{
+    color: #ffffff;
+  }
+  .app-content {
+    display: flex;
+    align-items: center;
+  }
+  .app-image {
+    margin-top: -100px !important;
+  }
+  .home-about hr{
+    color: #BF1E2D;
+    background-color: #BF1E2D;
+    height: 3px;
+  }
+  .main-footer{
+    background: #BF1E2D;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+  }
+  .main-footer h3{
+    color: #ffffff;
+  }
+  .main-footer p{
+    color: #ffffff;
+  }
+  .main-footer a{
+    text-decoration: none;
+    color: #ffffff;
+    white-space: nowrap;
+  }
+  .main-footer a:hover {
+    color: #000000;
+  }
+  .main-footer i{
+    color: #ffffff;
+    font-size: 25px;
+  }
+  .main-footer i:hover {
+    color: #000000;
+  }
+/*Home Page Css End*/
+
+/*Terms & Conditions, Privacy Policy, Return & Refund Policy Page Css Start*/
+  .top-banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/terms-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+  }
+  .top-banner .container .row{
+    height: 200px;
+  }
+  .top-banner h1{
+    color: #ffffff;
+  }
+  .policy-body-content {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .policy-body-content h2{
+    color: #BF1E2D;
+  }
+  .policy-body-content p{
+    line-height: 2rem;
+  }
+/*Terms & Conditions, Privacy Policy, Return & Refund Policy Page Css End*/
+
+/* Contact Us Page Start */
+  .contact-us {
+    display: flex;
+    align-items: center;
+  }
+  .contact-us form input {
+    font-size: 14px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #766f6f;
+  }
+  .contact-us form textarea {
+    font-size: 14px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 1px solid #766f6f;
+  }
+  .contact-us .container .row {
+    padding: 20px;
+  }
+  .contact-us .container{
+    box-shadow: 0 0 10px rgb(188 188 188 / 60%);
+  }
+/* Contact Us Page End */
+
+/* services Us Page Start */
+  .services-top {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .services-top h2 {
+    color: #BF1E2D;
+  }
+  .services-middle {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/services-middle.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .services-middle .container .row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .services-middle h1 {
+    color: #ffffff;
+  }
+  .services-middle h4 {
+    color: #ffffff;
+  }
+  .services-features {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .services-features h5 {
+    color: #BF1E2D;
+  }
+  .services-top h5 {
+    color: #BF1E2D;
+  }
+  .services-bottom h5 {
+    color: #BF1E2D;
+  }
+  .services-security {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/services-security.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .services-security .container .row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .services-security h1 {
+    color: #ffffff;
+  }
+  .services-security h4 {
+    color: #ffffff;
+  }
+  .services-security p {
+    color: #ffffff;
+  }
+  
+/* services Us Page End */
+
+/*Partner With Us Page Start*/
+  .partner-top-banner{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/partner-with-us.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+  }
+  .partner-top-banner .container .row{
+    height: 200px;
+  }
+  .partner-top-banner h1{
+    color: #ffffff;
+  }
+  .partner-sign-up {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .partner-sign-up label {
+    font-weight: 500;
+  }
+  .partner-sign-up form {
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 3px 10px 0px rgb(220 210 210 / 60%);
+  }
+  .partner-sign-up form a {
+    text-decoration: none;
+    color: #BF1E2D;
+  }
+  .partner-sign-up form a:hover {
+    color: #000000;
+  }
+  .partner-sign-up .form-check-input[type=checkbox] {
+    border-radius: 0px !important;
+  }
+  .partner-sign-up .form-check-input:checked {
+    border-color: #bf1e2d !important;
+  }
+  .partner-sign-up .form-check-input:checked[type=checkbox] {
+    background: #bf1e2d;
+  }
+  .policy-accept {
+    color: #707070;
+  }
+  .partner-sign-up .nav-item {
+    padding-left: 0.6rem;
+    padding-right: 0.6rem;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 3px rgb(220 210 210 / 60%);
+  }
+  .partner-sign-up .container .sign-up-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sign-up-row button {
+    white-space: nowrap;
+  }
+  .sign-up-row li {
+    width: 300px;
+  }
+  .sign-up-row .nav-pills .nav-item .nav-link {
+    font-weight: 700;
+    padding: 10px 40px;
+    color: #B5B5B5;
+    background: #ffffff;
+  }
+  .sign-up-row .nav-pills .nav-item .nav-link.active {
+    font-weight: 700;
+    padding: 10px 40px;
+    color: #BF1E2D;
+    background: #ffffff;
+    border-bottom: 1px solid #BF1E2D;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: relative;
+  }
+  .sp-btn-1 span:after {
+    content: url(../images/human-1.svg);
+    position: absolute;
+    opacity: 0;
+    top: 3px;
+    right: 0px;
+    transition: 0.5s;
+  }
+  .sp-btn-1.active span {
+    padding-right: 25px;
+  }
+  .sp-btn-1 .active span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .sp-btn-2 span:after {
+    content: url(../images/bike.svg);
+    position: absolute;
+    opacity: 0;
+    top: 0px;
+    right: 0px;
+    transition: 0.5s;
+  }
+  .sp-btn-2.active span {
+    padding-right: 25px;
+  }
+  .sp-btn-2 .active span:after {
+    opacity: 1;
+    right: 0;
+  }
+/*Partner With Us Page End*/
+
+/*Invalid Page Start*/
+  .invalid-page {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+  }
+  .invalid-page img,h1 {
+    margin-bottom: 20px;
+  }
+  .invalid-page p {
+    margin-bottom: 40px;
+  }
+/*Invalid Page End*/
+
+/* About Us Page Start */
+  .about-top {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  .about-top h2 {
+    color: #BF1E2D;
+  }
+  .about-contact {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  .about-contact h1 {
+    color: #BF1E2D;
+  }
+  .about-business {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/business.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .about-business h1 {
+    color: #ffffff;
+  }
+  .about-business p {
+    color: #ffffff;
+  }
+  .about-middle {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/services-middle.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .about-middle .container .row {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .about-middle h1 {
+    color: #ffffff;
+  }
+  .about-middle h4 {
+    color: #ffffff;
+  }
+/* About Us Page End */
